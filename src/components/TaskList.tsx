@@ -27,6 +27,7 @@ export function TaskList() {
       }
 
       setTasks(prevTasks => [...prevTasks, task]);
+      setNewTaskTitle('');
     }
   }
 
